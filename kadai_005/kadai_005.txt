@@ -1,0 +1,16 @@
+yuichi@sanoyuuchinoMBP ~ % mkdir git_challenge
+yuichi@sanoyuuchinoMBP ~ % cd git_challenge
+yuichi@sanoyuuchinoMBP git_challenge % git init
+Initialized empty Git repository in /Users/yuichi/git_challenge/.git/
+yuichi@sanoyuuchinoMBP git_challenge % git add hello_world.txt
+yuichi@sanoyuuchinoMBP git_challenge % git commit -m "日本語訳を追記"
+[main (root-commit) 4768b52] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+yuichi@sanoyuuchinoMBP git_challenge % git add hello_world.txt
+yuichi@sanoyuuchinoMBP git_challenge % git commit -m "hello_world.txtを追加"
+[main 084eb4f] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+yuichi@sanoyuuchinoMBP git_challenge % git log --oneline
+084eb4f (HEAD -> main) hello_world.txtを追加
+4768b52 日本語訳を追記
